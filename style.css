@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+   
+   
+    padding: 0;
+}
+
+
+
+.banner{
+
+    display: flex;
+    align-items: center;
+
+    margin-top:70px;
+
+background-image: url("images/banner.jpg");
+background-size: cover;
+height: 600px;
+background-repeat: no-repeat;
+
+}
+
+
+.tabView{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+margin: 100px;
+
+}
+
+
+.loading{
+    display: flex;
+
+}
+
+.spinnerSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spinner{
+  
+
+    z-index: 9999;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ratio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
